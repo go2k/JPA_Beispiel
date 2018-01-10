@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
         Person person = new Person("König", 44);
-        person.setAdresse(new Adresse("Haupstr","55","Roth", 91154));
+        person.setAdresse(new Adresse("Hauptstr","55","Roth", 91154));
 
         Person person1 = new Person("Meyer", 33);
         person1.setAdresse(new Adresse("Nebenstr","22", "Hilpoltstein", 91161));
